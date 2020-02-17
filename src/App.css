@@ -1,0 +1,38 @@
+:root{
+  --black: #342E37;
+  --darkblue: #3E78B2;
+  --blue: #3C91E6;
+  --green: #A2D729;
+  --orange: #FA824C;
+  --white: #FFFFFF;
+}
+
+.App {
+  position: relative;
+  width: 1440px;
+  height: 3008px;
+  background-color: var(--white);
+}
+
+.headerDiv {
+  position: absolute;
+  width: 1440px;
+  height: 664px;
+  left: -1px;
+  top: 0px;
+  background: var(--blue);
+}
+
+.facepayHeader {
+  position: absolute;
+  height: 38px;
+  left: 5.07%;
+  right: 85.28%;
+  top: 31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 38px;
+  color: ;: var(--white);
+}
