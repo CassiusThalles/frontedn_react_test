@@ -5,7 +5,7 @@ class Header extends Component{
         return (
             <div className="headerDiv">
                 <header>
-                    <span className="facepayHeader"><b>Face</b><b style={{"font-weight": "100"}}>Pay</b></span>
+                    <span className="facepayHeader"><b>Face</b>Pay</span>
                     <span className="inicio"><a href="/">Início</a></span>
                     <span className="pagamento"><a href="/">Pagamento</a></span>
                     <span className="carteiraDigital"><a href="/">Carteira digital</a></span>

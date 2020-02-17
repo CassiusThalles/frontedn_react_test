@@ -222,3 +222,318 @@
   top: 0px;
   background: url("images/image 5.png");
 }
+
+.content1TextHead {
+  position: absolute;
+  top: 109px;
+  left: 135px;
+  width: 440px;
+  height: 34px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.content1Text {
+  position: absolute;
+  left: 135px;
+  right: 883px;
+  top: 253px;
+  width: 422px;
+  height: 85px;
+  text-align: justify;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.content1Button {
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  top: 466px;
+  left: 220px;
+  background: var(--orange);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: grid;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content1Button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.content2Div {
+  position: ;
+}
+
+.content3Div {
+  position: absolute;
+  width: 1440px;
+  height: 307px;
+  top: 2215px;
+  left: 0px;
+  background: url("images/Rectangle 7.png");
+  background-repeat: no-repeat;
+}
+
+.maskBackground {
+  position: absolute;
+  width: 1440px;
+  height: 307px;
+  left: 0px;
+  background: url("images/Rectangle 8.png");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.content3Text {
+  position: absolute;
+  top: 52px;
+  left: 690px;
+  width: 586px;
+  height: 105px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  z-index: 2;
+}
+
+.content3Button1 {
+   position: absolute;
+   top: 194px;
+   left: 726px;
+   width: 240px;
+   height: 60px;
+   background: var(--orange);
+   border-radius: 5px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
+   display: grid;
+   align-items: center;
+   text-align: center;
+   color: var(--white);
+   z-index: 2;
+   cursor: pointer;
+ }
+
+.content3Button1 a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.content3Button2 {
+  position: absolute;
+  top: 194px;
+  left: 1000px;
+  width: 240px;
+  height: 60px;
+  background: var(--green);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.content3Button2 a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footerBaseDiv {
+  position: absolute;
+  background: var(--blue);
+  top: 2646px;
+  width: 1440px;
+  height: 363px;
+}
+
+.footerBaseDiv hr {
+  position: absolute;
+  width: 1000px;
+  top: 141px;
+  left: 220px;
+}
+
+.facepayFooter {
+  position: absolute;
+  left: 674px;
+  top: 64px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--white);
+}
+
+.produtos {
+  position: absolute;
+  left: 220px;
+  top: 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.transparencia {
+  position: absolute;
+  top: 68px;
+  left: 320px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.explore {
+  position: absolute;
+  top: 68px;
+  left: 453px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.sobre {
+  position: absolute;
+  top: 68px;
+  left: 916px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.blog {
+  position: absolute;
+  top: 68px;
+  left: 995px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.suporte {
+  position: absolute;
+  top: 68px;
+  left: 1066px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.ouvidoria {
+  position: absolute;
+  top: 68px;
+  left: 1159px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.facebookIcon {
+  position: absolute;
+  top: 51px;
+  left: 571px;
+}
+
+.linkedinIcon {
+  position: absolute;
+  top: 208.5px;
+  left: 654px;
+}
+
+.instagramIcon {
+  position: absolute;
+  top: 208.5px;
+  left: 737px;
+}
+
+.youtubeIcon {
+  position: absolute;
+  top: 208.5px;
+  left: 820px;
+}
+
+.copyrightHome {
+  position: absolute;
+  top: 308px;
+  left: 602px;;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white);
+}
+
+.autores{
+  position: absolute;
+  top: 306px;
+  left: 671px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white);
+}
