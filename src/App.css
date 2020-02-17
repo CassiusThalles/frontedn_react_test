@@ -30,9 +30,130 @@
   right: 85.28%;
   top: 31px;
   font-family: Roboto;
+  font-weight: lighter;
   font-style: normal;
-  font-weight: 900;
   font-size: 37px;
   line-height: 38px;
-  color: ;: var(--white);
+  color: var(--white);
 }
+
+.facepayHeader b{
+  font-weight: 900;
+}
+
+.inicio a {
+  position: absolute;
+  height: 27.4px;
+  left: 17.99%;
+  right: 79.24%;
+  top: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--green);
+  text-decoration: none;
+}
+
+.pagamento a {
+  position: absolute;
+  height: 27.4px;
+  left: 24.25%;
+  right: 70.04%;
+  top: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.carteiraDigital a {
+  position: absolute;
+  height: 27.4px;
+  left: 33.53%;
+  right: 59.26%;
+  top: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.sobreNos a {
+  position: absolute;
+  height: 27.4px;
+  left: 44.31%;
+  right: 50.69%;
+  top: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.cadastroHeader {
+  position: absolute;
+  left: 1137px;
+  right: 73px;
+  top: 31px;
+  bottom: 596px;
+  background: var(--green);
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.imageHeader {
+  position: absolute;
+  width: 1292px;
+  height: 631px;
+  left: 74px;
+  top: 107px;
+  background: url("images/Background.png");
+  border-radius: 10px;
+}
+
+.textOnImage {
+  position: absolute;
+  width: 531px;
+  height: 631px;
+  background: var(--black);
+  mix-blend-mode: multiply;
+  opacity: 0.6;
+}
+
+.textOnImageH1 {
+  position: absolute;
+  width: 451px;
+  height: 113px;
+  left: 40px;
+  top: 144px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+
