@@ -1,15 +1,6 @@
-import React, { Component } from 'react';
-import './App.css';
-import Home from "./Components/home";
+import React from "react";
+import Routes from "./pages/routes";
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <Home />
-            </div>
-        )
-    }
+export default function src() {
+  return <Routes />;
 }
-
-export default App;

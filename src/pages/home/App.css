@@ -127,7 +127,7 @@
   height: 631px;
   left: 74px;
   top: 107px;
-  background: url("images/Background.png");
+  background: url("../../images/Background.png");
   border-radius: 10px;
 }
 
@@ -220,7 +220,7 @@
   height: 600px;
   right: 0px;
   top: 0px;
-  background: url("images/image 5.png");
+  background: url("../../images/image 5.png");
 }
 
 .content1TextHead {
@@ -280,7 +280,7 @@
 }
 
 .content2Div {
-  position: ;
+  position: relative;
 }
 
 .content3Div {
@@ -289,7 +289,7 @@
   height: 307px;
   top: 2215px;
   left: 0px;
-  background: url("images/Rectangle 7.png");
+  background: url("../../images/Rectangle 7.png");
   background-repeat: no-repeat;
 }
 
@@ -298,7 +298,7 @@
   width: 1440px;
   height: 307px;
   left: 0px;
-  background: url("images/Rectangle 8.png");
+  background: url("../../images/Rectangle 8.png");
   background-repeat: no-repeat;
   opacity: 0.8;
   z-index: 1;
