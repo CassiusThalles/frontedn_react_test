@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import { Navbar, Navitem, Row} from 'react-materialize';
 
 class Header extends Component{
     render() {
@@ -17,6 +16,7 @@ class Header extends Component{
                     <div className="textOnImage"></div>
                     <div className="textOnImageH1">Pagar nunca foi tão simpes!</div>
                     <div className="textOnImageH3">Evite filas para pagar. Com FacePay você paga com o reconhecimento facial, sem precisar de um intermédio físico de pagamento! </div>
+                    <span className="imageButtonCadastro"><a href="/">Cadastre-se</a></span>
                 </div>'
             </div>
         )

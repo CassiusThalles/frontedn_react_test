@@ -157,3 +157,68 @@
   color: var(--white);
 }
 
+.textOnImageH3 {
+  position: absolute;
+  width: 416px;
+  height: 76px;
+  left: 55px;
+  top: 303px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+
+.imageButtonCadastro {
+  position: absolute;
+  height: 60px;
+  width: 240px;
+  left: 149px;
+  top: 459px;
+  display: flex;
+  align-items: center;
+  background: var(--green);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.imageButtonCadastro a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  color:  var(--white);
+  margin-left: 75px;
+}
+
+.content1BaseDiv {
+  position: absolute;
+  background: var(--white);
+  left: -0.14px;
+  right: 0.14px;
+  top: 823px;
+  bottom: 52.69%;
+}
+
+.content1ColorBackground {
+  background: #F2F2F2;
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+}
+
+.content1Image {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  right: 0px;
+  top: 0px;
+  background: url("images/image 5.png");
+}
