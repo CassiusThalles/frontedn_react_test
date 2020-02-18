@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ Route }) {
   return (
     <div className="headerDiv">
       <header>
@@ -29,7 +29,9 @@ function Header() {
           facial, sem precisar de um intermédio físico de pagamento!{" "}
         </div>
         <span className="imageButtonCadastro">
-          <a href="/cadastro">Cadastre-se</a>
+          <Route path="/cadastro" component="SignUp">
+            <a href="/cadastro">Cadastre-se</a>
+          </Route>
         </span>
       </div>
       '

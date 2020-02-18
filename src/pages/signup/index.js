@@ -3,11 +3,9 @@ import {
   Container,
   Row,
   Col,
-  Image,
+  Image,  
   InputGroup,
-  FormControl,
-  ButtonToolbar,
-  Button
+  FormControl
 } from "react-bootstrap";
 
 import {
@@ -15,7 +13,10 @@ import {
   ContainerImg,
   TitleFacePay,
   PhotoCard,
-  ContainerCard
+  ContainerCard,
+  ButtonNext,
+  
+  InputDuple
 } from "./styles";
 
 import ImageSignUp from "../../images/image9.png";
@@ -33,14 +34,9 @@ function Signup() {
         <Col xl={7}>
           <ContainerCard>
             <Title>Dados pessoais</Title>
-            <InputGroup className="mb-3">
-              <FormControl placeholder="Nome" />
-              <FormControl placeholder="Sobrenome" />
-            </InputGroup>
-            <InputGroup className="mb-3">
-              <FormControl placeholder="Data nascimento" />
-              <FormControl placeholder="CPF" />
-            </InputGroup>
+            <InputDuple text1="Nome" text2="Sobrenome" />
+            <InputDuple text1="CPF" text2="Data de Nascimento" />
+            
             <PhotoCard text="Envie a foto do seu documento" />
           </ContainerCard>
           <ContainerCard>
@@ -73,11 +69,7 @@ function Signup() {
             </InputGroup>
             <PhotoCard text="Envie a foto do seu comprovante de residência" />
 
-            <ButtonToolbar>
-              <Button variant="primary" size="lg" active>
-                Próximo
-              </Button>
-            </ButtonToolbar>
+            <ButtonNext text="Próximo"/>
           </ContainerCard>
         </Col>
       </Row>

@@ -2,6 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Logo from "../../images/PhotoUpload.svg";
 
+import {
+  ButtonToolbar,
+  Button,
+  InputGroup,
+  FormControl
+} from "react-bootstrap";
 
 export const ContainerImg = styled.div`
   display: flex;
@@ -67,5 +73,24 @@ export function PhotoCard({ text }) {
       <img src={Logo} className="App-logo" alt="logo" />
       <Title>{text}</Title>
     </Container>
+  );
+}
+
+export function ButtonNext({ text }) {
+  return (
+    <ButtonToolbar>
+      <Button variant="primary" size="lg" active>
+        {text}
+      </Button>
+    </ButtonToolbar>
+  );
+}
+
+export function InputDuple({ text1, text2 }) {
+  return (
+    <InputGroup className="mb-3">
+      <FormControl placeholder={text1} />
+      <FormControl placeholder={text2} />
+    </InputGroup>
   );
 }
