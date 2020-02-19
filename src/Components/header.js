@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import { Modal, Button, InputGroup, FormControl } from "react-bootstrap";
+import { Link } from "react-router-dom";
+function Header() {
+  const [show, setShow] = useState(false);
 
-function Header({ Route }) {
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="headerDiv">
       <header>
@@ -8,18 +14,19 @@ function Header({ Route }) {
           <b>Face</b>Pay
         </span>
         <span className="inicio">
-          <a href="/">Início</a>
+          <Link to="/">Início</Link>
         </span>
         <span className="pagamento">
-          <a href="/">Pagamento</a>
+          <Link to="/">Pagamento</Link>
         </span>
+
         <span className="carteiraDigital">
-          <a href="/">Carteira digital</a>
+          <Link to="/">Carteira digital</Link>
         </span>
-        <span className="sobreNos">
-          <a href="/">Sobre nós</a>
+        
+        <span className="cadastroHeader" onClick={handleShow}>
+          Entrar
         </span>
-        <span className="cadastroHeader">Cadastre-se</span>
       </header>
       <div className="imageHeader">
         <div className="textOnImage"></div>
@@ -29,12 +36,44 @@ function Header({ Route }) {
           facial, sem precisar de um intermédio físico de pagamento!{" "}
         </div>
         <span className="imageButtonCadastro">
-          <Route path="/cadastro" component="SignUp">
-            <a href="/cadastro">Cadastre-se</a>
-          </Route>
+          <Link to="/cadastro">Cadastre-se</Link>
         </span>
       </div>
-      '
+
+      <Modal show={show} onHide={handleClose} animation={false}>
+        <Modal.Header closeButton>
+          <Modal.Title>FacePay</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="inputGroup-sizing-default">
+                Email
+              </InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </InputGroup>
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="inputGroup-sizing-default">
+                Senha
+              </InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </InputGroup>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Entrar
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
